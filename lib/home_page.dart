@@ -9,13 +9,9 @@ class homePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Flutter Catalog'),
       ),
-      body: MaterialApp(
-        home: Material(
-          child: Center(
-            child: Container(
-              child: Text('hello'),
-            ),
-          ),
+      body: Center(
+        child: Container(
+          child: Text('hello'),
         ),
       ),
       drawer: Drawer(),
