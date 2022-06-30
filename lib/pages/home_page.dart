@@ -10,9 +10,13 @@ class HomePage extends StatelessWidget {
         title: Text('Flutter Catalog'),
       ),
       body: Center(
-        child: Container(
-          child: Text('hello'),
-        ),
+        child: Column(children: [
+          Text('hello'),
+          ElevatedButton(
+            onPressed: () {},
+            child: Text('hello sunil'),
+          ),
+        ]),
       ),
       drawer: Drawer(),
     );
